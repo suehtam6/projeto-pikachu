@@ -40,3 +40,20 @@ main{
     left: 50%;
     transform: translate(-50%, -80%);
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 300px;
+    color: white;
+}
+
+.container{
+    height: 154px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 64px;
+}
