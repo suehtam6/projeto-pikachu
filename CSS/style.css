@@ -1,0 +1,26 @@
+:root{
+
+ --primary-color: #F5CF06;
+ --secudary-color: #8E4106;
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+header{
+
+    background-color: #8E4106;
+}
+
+main{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: azure;
+}
