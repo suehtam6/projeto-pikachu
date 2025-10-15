@@ -51,9 +51,52 @@ h1{
 }
 
 .container{
-    height: 154px;
+
     display: flex;
+    height: 154px;
     justify-content: space-between;
     align-items: flex-end;
     padding-bottom: 64px;
+}
+
+.descricao h2{
+
+    font-size: 64px;
+    color: var(--secudary-color);
+
+}
+
+.descricao p{
+
+    font-size: 20px;
+    color: var(--secudary-color);
+    width: 500px;
+}
+
+.container a {
+    
+    width: 400px;
+    height: 100px;
+    background-color: var(--secudary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: white;
+}
+
+.pikachu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secudary-color);
 }
