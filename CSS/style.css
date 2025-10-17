@@ -1,3 +1,4 @@
+/* utilizei o root, para criar cores globais, assim podendo utilizar a qualquer momento, ele pode ser utilizado para criar variaveis */
 :root{
 
  --primary-color: #F5CF06;
@@ -31,6 +32,7 @@ main{
     flex-grow: 1;
 }
 
+/* aqui a sombra foi utilizada para criar o "pikachu" de fundo */
 .sombra{
     position: absolute;
     font-size: 28vw;
@@ -51,6 +53,7 @@ h1{
     
 }
 
+ 
 .container{
 
     display: flex;
