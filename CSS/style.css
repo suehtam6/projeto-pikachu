@@ -33,7 +33,7 @@ main{
 
 .sombra{
     position: absolute;
-    font-size: 500px;
+    font-size: 28vw;
     color: #ffffff55;
     z-index: -999;
     top: 50%;
@@ -46,7 +46,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    font-size: 300px;
+    font-size: 22vw;
     color: white;
     
 }
@@ -76,7 +76,7 @@ h1{
 
 .container a {
     
-    width: 400px;
+    width: 411px;
     height: 100px;
     background-color: var(--secudary-color);
     display: flex;
@@ -100,4 +100,40 @@ footer{
     align-items: center;
     justify-content: center;
     color: var(--secudary-color);
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+    footer{
+        display: none;
+    }
+    body{
+        padding: 30px;
+    }
+    h1{
+        transform: translate(0, -30%);
+    }
+    .sombra{
+        transform: translate(-50%, -180%);
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 0;
+        gap: 8px;
+    }
+    .descricao{
+        text-align: center;
+    }
+    .pikachu{
+        transform: translate(-45%, -50%);
+    }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+
+
 }
