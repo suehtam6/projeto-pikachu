@@ -60,6 +60,10 @@ h1{
     padding-bottom: 64px;
 }
 
+.descricao{
+    z-index: 1;
+}
+
 .descricao h2{
 
     font-size: 64px;
@@ -133,7 +137,26 @@ footer{
 
 /* MOBILE */
 @media (max-width: 480px) {
-
-
+    .descricao p {
+        display: none;
+    }
+    .container{
+        z-index: 1000;
+    }
+    .descricao h2{
+        font-size: 38px;
+    }
+    .container a{
+        width: 100%;
+    }
+    .pikachu{
+        height: 50vh;
+    }
+    .sombra{
+        transform: translate(-50%, -220%);
+    }
+    h1{
+        transform: translate(0, -22%);
+    }
 
 }
